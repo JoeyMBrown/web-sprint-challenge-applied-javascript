@@ -40,7 +40,10 @@ cardDiv.appendChild(authorDiv);
 authorDiv.appendChild(imgContainer);
 imgContainer.appendChild(img);
 authorDiv.appendChild(span);
-console.log(cardDiv);
+
+cardDiv.addEventListener('click', () => {
+  console.log(headline);
+})
 
 return cardDiv;
 
